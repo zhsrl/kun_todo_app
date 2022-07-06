@@ -9,6 +9,17 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gr.dart"
+    - "lib/l10n/messages*"
+
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+
 linter:
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`
@@ -24,6 +35,16 @@ linter:
   rules:
     prefer_const_constructors: false
     prefer_const_literals_to_create_immutables: false
+    avoid_classes_with_only_static_members: false
+    sort_pub_dependencies: false
+    use_key_in_widget_constructors: true
+    always_use_package_imports: true
+    # Conflicts with the convention used by flutter, which puts `Key key`
+    # and `@required Widget child` last.
+    always_put_required_named_parameters_first: false
+    package_api_docs: true
+    slash_for_doc_comments: true
+    sort_constructors_first: true
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
 # Additional information about this file can be found at

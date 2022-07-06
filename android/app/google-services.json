@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "319288505035",
+    "project_id": "kun-todo-app",
+    "storage_bucket": "kun-todo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319288505035:android:9b452ebefc6947f414614e",
+        "android_client_info": {
+          "package_name": "com.example.kun_todo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319288505035-nfkarvcad6ujn34foc02fvo73jk8nkb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx92i0Q2aEtw-XzjA1tYTJpakOhWhireY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319288505035-nfkarvcad6ujn34foc02fvo73jk8nkb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
